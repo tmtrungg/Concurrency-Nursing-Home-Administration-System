@@ -1,17 +1,7 @@
 # Concurrency Nursing Home Administration System
 
-## Background:
-
-Nursing home – the very popular terms to all kinds of people with describe as a modern facility taking care of old or disable people. The nursing home system is widely applied to every developed country in the world to provide better heath care to old/disable with their research methods and technologies and become an industry to growth with moral purposes.
-
-Despite all the problems that many other industries in developing country faced such as money, land to build places, problem on HR, the biggest issue that is preventing nursing home become a reliable service in Vietnam is that: unscientific and passive reacting in arrangement of patient taking care:
-
-- When the patient number is much larger than the nurse, make it insufficient and hard to control/arrange them to take care for patient.
-- Passive in reacting with request, when there’s no technology to logically optimize the arrangement of nurse to patient that has a problem.
-- Hard to update and control which worker is busy and free, leads to unable to using people effectively and can guarantee caring quality.
-
 ## Project overview:
-A system program that can dynamically control the availability and location of nurses ( workers ) and patient then optimizing the process of automatically arrange the available and nearest nurse to a particular patient with a request (the request from the patient is going to be sent to the system). The system must be capable of:
+Applied in the large nursing home with large number of nurse and patients, the system that can dynamically control the availability and location of nurses ( workers ) and patient then optimizing the process of automatically arrange the available and nearest nurse to a particular patient with a request (the request from the patient is going to be sent to the system). The system must be capable of:
 
 - Using triggering embedded sensor to collect the real time request sent from the patient’s devices to have the best response.
 - Arranging optimizing and logically in pairing workers-patient to serve them with the request in a scale of 1000 patient and 1000 worker with openMP version ( for a 1 strong memory PCs system ) or MPI ( for a distributed multiple PC system ).
