@@ -36,5 +36,5 @@ Applied in the large nursing home with large number of nurse and patients, the s
 ### Component-based simple structure to use, manage and upgrade
    The Component-based structure of data flow and system set up ( using Arduino and simple C++ terminal ) gives the solution the advantages of easy to build part-by-part, easy to use and easy to upgrade/adding more features into specific function group.
 
-## Project running demonstration:
+## Project walkthrough and system's demonstration:
 https://youtu.be/Tlq4uzVe-Dk
