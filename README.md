@@ -7,10 +7,9 @@ Applied in the large nursing home with large number of nurse and patients, the s
 - Arranging optimizing and logically in pairing workers-patient to serve them with the request in a scale of 1000 patient and 1000 worker with openMP version ( for a 1 strong memory PCs system ) or MPI ( for a distributed multiple PC system ).
 - Dynamically multitasking of : updating worker history, Ford-Fulkerson algorithm and send message of the work sheet ( patient name, patient’s place, nearest path to patient’s location,... ) in the same time using mentioned MPI or openMP ( 2 code options based on different system ).
 
-## Design principles:
-### Cost
-
-The system is the replacement for the expensive control and administration facility of the nursing home – which can hardly get in the low- investment level of the industry. Every nursing home which planning to applying the system only need to have a strong enough computer, and an Arduino for each of their patient ( with 3 set up PIR sensor ), which is very cheap in average for an effective system to enhance the nurse work and nursing home quality on serving patient.
+## Design principles
+**Cost**
+    The system is the replacement for the expensive control and administration facility of the nursing home – which can hardly get in the low- investment level of the industry. Every nursing home which planning to applying the system only need to have a strong enough computer, and an Arduino for each of their patient ( with 3 set up PIR sensor ), which is very cheap in average for an effective system to enhance the nurse work and nursing home quality on serving patient.
 
 ### Real-time response
 The system guarantee the soft real-time principles – automatically send an available nurse to the requested patient right after one of them are with the precision in large scale ( for example 50 patient request in the same time, the available nurse will be processed to be arranged in correct order for 50 of them without latency, the available status of nurse will also be updated by their phone to the system in every loop to make sure the nurses availability is also real-time ).
