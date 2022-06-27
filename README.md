@@ -6,7 +6,7 @@ Applied in the large nursing home with large number of nurse and patients, the s
 - Using triggering embedded sensor to collect the real time request sent from the patient’s devices to have the best response.
 - Arranging optimizing and logically in pairing workers-patient to serve them with the request in a scale of 1000 patient and 1000 worker with openMP version ( for a 1 strong memory PCs system ) or MPI ( for a distributed multiple PC system ).
 - Dynamically multitasking of : updating worker history, Ford-Fulkerson algorithm and send message of the work sheet ( patient name, patient’s place, nearest path to patient’s location,... ) in the same time using mentioned MPI or openMP ( 2 code options based on different system ).
-- 
+
 ## Hardware:
 - The Computer system to run the main code.
 - Arduino and 3 set up PIR sensor for each patient in their room to make a request.
