@@ -32,7 +32,7 @@ The Component-based structure of data flow and system set up ( using Arduino and
 - Google API : Use to update google sheet to the system and the C++ code will work on it.
 
 ## Design Pattern
-(blank for now)
+![alt text](https://github.com/tmtrungg/Concurrency-Nursing-Home-Administration-System/blob/main/demo/demo.png?raw=true)
 
 ## Project running demonstration:
 https://youtu.be/Tlq4uzVe-Dk
