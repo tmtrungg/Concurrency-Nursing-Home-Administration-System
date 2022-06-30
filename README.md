@@ -7,6 +7,11 @@ Applied in the large nursing home with large number of nurse and patients, the s
 - Arranging optimizing and logically in pairing workers-patient to serve them with the request in a scale of 1000 patient and 1000 worker with openMP version ( for a 1 strong memory PCs system ) or MPI ( for a distributed multiple PC system ).
 - Dynamically multitasking of : updating worker history, Ford-Fulkerson algorithm and send message of the work sheet ( patient name, patient’s place, nearest path to patient’s location,... ) in the same time using mentioned MPI or openMP ( 2 code options based on different system ).
 
+## Project walkthrough and system's demonstration:
+https://youtu.be/Tlq4uzVe-Dk
+
+## Design Pattern
+![alt text](https://github.com/tmtrungg/Concurrency-Nursing-Home-Administration-System/blob/main/demo/demo.png?raw=true)
 ## Hardware:
 - The Computer system to run the main code.
 - Arduino and 3 set up PIR sensor for each patient in their room to make a request.
@@ -16,12 +21,6 @@ Applied in the large nursing home with large number of nurse and patients, the s
 - C++ : Use to build the main code that run during the system work (with MPI/openMP).
 - IFTTT : Use to transport Arduino’s data from patients into total sheet (google sheet).
 - Google API : Use to update google sheet to the system and the C++ code will work on it.
-- 
-## Project walkthrough and system's demonstration:
-https://youtu.be/Tlq4uzVe-Dk
-
-## Design Pattern
-![alt text](https://github.com/tmtrungg/Concurrency-Nursing-Home-Administration-System/blob/main/demo/demo.png?raw=true)
 
 ## Design principles
 
